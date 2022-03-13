@@ -13,7 +13,7 @@ A Colorado Board of Elections employee requested the following data:
 
 This data is printed to the terminal and to a text file.
 ## Resources
-- Data Source: election_results.cs
+- Data Source: election_results.csv
 - Python, Visual Studio Code
 
 ## Election-Audit Results
@@ -35,4 +35,4 @@ The analysis of the election shows that:
  - The county with the most votes cast was Denver with 82.8% of votes cast, a total of 306,055 votes
 
 ## Election-Audit Summary
-TODO: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+The script can be used to analyze results in a csv file that is formatted the same as election_results.csv (ballot #, county, candidate). By changing the file_to_load variable, the script can reference a different data source. Alternatively, file_to_load can be changed to an input value and the file can be determined at runtime. The file_to_save variable can be changed, to print t a different file and not continually overwrite the analysis each time.
